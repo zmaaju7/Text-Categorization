@@ -47,6 +47,6 @@ model.add(Dense(units = 4194,init = 'uniform',activation = 'relu'))
 model.add(Dense(units = 16000,init = 'uniform',activation = 'relu'))
 model.add(Dense(units = 4,init = 'uniform',activation = 'softmax'))
 model.compile(optimizer = 'adam', loss = "categorical_crossentropy",metrics = ['accuracy'])
-model.fit(x_train,y_train,epochs = 5,batch_size = 64)
+model.fit(x_train,y_train,epochs = 10,batch_size = 32)
 model.save("nlp.h5")
 
