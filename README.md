@@ -1,5 +1,6 @@
 # Text-Categorization
 Classification Of News Into Categories
+
 SUMMARY: Dataset of references (urls) to news web pages
 
 DESCRIPTION: Dataset of references to news web pages collected from an online aggregator in the period from March 10 to August 10 of 2014. The resources are grouped into clusters that represent pages discussing the same news story. The dataset includes also references to web pages that point (has a link to) one of the news page in the collection.
